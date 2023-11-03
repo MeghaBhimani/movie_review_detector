@@ -1,0 +1,137 @@
+body {
+    background: #DFE5F0;
+}
+
+.title {
+    color: #2E4374;
+    width: 400px;
+    text-align: start;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.link {
+    color: #2E4374;
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+.active-link {
+    color: #2E4374;
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 48px;
+}
+
+.detector {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 240px 48px 0 0;
+}
+
+.button-rectangle {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    background: #DFE5F0;
+    box-shadow: 2px 7px 12px 3px rgba(46, 67, 116, 0.19);color: #2E4374;
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.button-round {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 40px;
+    background: #DFE5F0;
+    box-shadow: 2px 7px 12px 3px rgba(46, 67, 116, 0.19);
+    color: #2E4374;
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.review-box {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.24px solid #000;
+    border-bottom-color: #2E4374;
+    text-align: center;
+    width: 1000px;
+    color: #2E4374;
+    font-family: Roboto Mono, monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+.review-box:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.64px solid #000;
+    outline: none;
+    border-bottom-color: #2E4374;
+    text-align: center;
+}
+
+.resultText {
+    color: #2E4374;
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+.detector2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-red {
+        color: #D02A2A;
+    }
